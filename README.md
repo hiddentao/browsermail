@@ -1,6 +1,6 @@
-An IMAP Email client for modern browsers _(Chrome only, for now)_.
+A Javascript IMAP Email client for browsers _(Chrome only, for now)_.
 
-At the moment this is just a proof-of-concept project to show that a full email client is possible within the browser, in pure JS.
+At the moment this is just a proof-of-concept project to show that an IMAP email client is possible within the browser, in pure JS.
 
 This only fetches the latest messages for your inbox and shows them. Email body text is not yet parsed. Another limitation is that only SSL/TLS connections are supported.
 
