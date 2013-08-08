@@ -1,0 +1,27 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__.",
+  "app": {
+    "background": {
+      "scripts": [
+        "js/chrome/bootstrap.js"
+      ]
+    }
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "128": "img/icon-128.png"
+  },
+  "permissions": [
+    {
+      "socket": [
+          "tcp-connect"
+      ]
+    }
+  ],
+  "default_locale": "en"
+}
+
+

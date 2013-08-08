@@ -1,0 +1,21 @@
+# build
+node_modules
+src/bower_components
+temp
+.tmp
+release
+build
+
+# SASS
+.sass-cache
+
+# IDE
+.idea
+*.iml
+
+# env
+Gemfile.lock
+npm-debug.log
+
+# OS
+.DS_Store

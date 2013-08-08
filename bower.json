@@ -1,0 +1,11 @@
+{
+  "name": "browsermail",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "eventEmitter": "~4.1.1",
+    "foundation": "~4.3.1",
+    "momentjs": "~2.1.0"
+  },
+  "devDependencies": {}
+}

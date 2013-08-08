@@ -1,0 +1,107 @@
+@import "compass";
+@import '_foundation';
+
+
+body {
+  margin: 0;
+}
+
+
+#log {
+  background-color: #efefef;
+  word-wrap: break-word;
+  overflow: scroll;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  max-height: 100px;
+  padding: 0 1em;
+  border-top: 1px solid #000;
+  width: 100%;
+}
+
+
+
+#connection {
+  form {
+    label, input {
+      display: inline-block;
+    }
+    label {
+      margin-right: 0.2em;
+    }
+  }
+}
+
+
+#mail {
+  & > div {
+    display: none;
+  }
+
+  .initial {
+    display: block;
+  }
+
+  .viewer {
+    .listing {
+      border-right: 1px solid #000;
+      overflow: scroll;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          display: block;
+          padding: 0.5em;
+          cursor: pointer;
+          border-bottom: 1px solid #ccc;
+          font-size: 70%;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          &.selected {
+            background-color: #efefef;
+          }
+
+          p {
+            margin: 0;
+          }
+
+          .from {
+            display: block;
+            font-weight: bold;
+            overflow: hidden;
+            font-size: 120%;
+          }
+
+          .date {
+            display: block;
+            overflow: hidden;
+            color: #999;
+          }
+
+          .subject {
+            display: block;
+            clear: both;
+            overflow: hidden;
+            margin-top: 0.2em;
+          }
+        }
+      }
+    }
+
+
+    .message {
+      padding: 0.5em;
+      overflow: scroll;
+    }
+  }
+}
+
+

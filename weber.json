@@ -1,0 +1,86 @@
+{
+    "/" : ".tmp",
+
+    "/forgeComponents.js": {
+      "minify": false,
+      "input": {
+        "module": [
+          "./src/js/libs/forge/js/aes.js",
+          "./src/js/libs/forge/js/aesCipherSuites.js",
+          "./src/js/libs/forge/js/asn1.js",
+          "./src/js/libs/forge/js/debug.js",
+          "./src/js/libs/forge/js/des.js",
+          "./src/js/libs/forge/js/hmac.js",
+          "./src/js/libs/forge/js/jsbn.js",
+          "./src/js/libs/forge/js/log.js",
+          "./src/js/libs/forge/js/oids.js",
+          "./src/js/libs/forge/js/pbkdf2.js",
+          "./src/js/libs/forge/js/pkcs7.js",
+          "./src/js/libs/forge/js/pkcs7asn1.js",
+          "./src/js/libs/forge/js/pkcs1.js",
+          "./src/js/libs/forge/js/pkcs12.js",
+          "./src/js/libs/forge/js/pki.js",
+          "./src/js/libs/forge/js/prng.js",
+          "./src/js/libs/forge/js/pss.js",
+          "./src/js/libs/forge/js/random.js",
+          "./src/js/libs/forge/js/rc2.js",
+          "./src/js/libs/forge/js/rsa.js",
+          "./src/js/libs/forge/js/sha1.js",
+          "./src/js/libs/forge/js/sha256.js",
+          "./src/js/libs/forge/js/task.js",
+          "./src/js/libs/forge/js/tls.js",
+          "./src/js/libs/forge/js/util.js",
+          "./src/js/libs/forge/js/md.js",
+          "./src/js/libs/forge/js/md5.js",
+          "./src/js/libs/forge/js/mgf.js",
+          "./src/js/libs/forge/js/mgf1.js"
+        ]
+      }
+    },
+
+    "/app.js" : {
+        "minify": false,
+        "build": "./build/js/app.js",
+        "input" : {
+            "lib" : [
+              "./src/bower_components/jquery/jquery.js",
+              "./src/bower_components/eventEmitter/EventEmitter.js",
+              "./src/bower_components/momentjs/moment.js",
+              "./src/bower_components/foundation/js/foundation/foundation.js",
+              "./src/bower_components/foundation/js/foundation/foundation.abide.js",
+              "./src/bower_components/foundation/js/foundation/foundation.alerts.js",
+              "./src/bower_components/foundation/js/foundation/foundation.clearing.js",
+              "./src/bower_components/foundation/js/foundation/foundation.cookie.js",
+              "./src/bower_components/foundation/js/foundation/foundation.dropdown.js",
+              "./src/bower_components/foundation/js/foundation/foundation.forms.js",
+              "./src/bower_components/foundation/js/foundation/foundation.interchange.js",
+              "./src/bower_components/foundation/js/foundation/foundation.joyride.js",
+              "./src/bower_components/foundation/js/foundation/foundation.magellan.js",
+              "./src/bower_components/foundation/js/foundation/foundation.orbit.js",
+              "./src/bower_components/foundation/js/foundation/foundation.placeholder.js",
+              "./src/bower_components/foundation/js/foundation/foundation.reveal.js",
+              "./src/bower_components/foundation/js/foundation/foundation.section.js",
+              "./src/bower_components/foundation/js/foundation/foundation.tooltips.js",
+              "./src/bower_components/foundation/js/foundation/foundation.topbar.js",
+              "./.tmp/forgeComponents.js"
+            ],
+            "dependency": [
+              "base64-js"
+            ],
+            "module": [
+              "./src/js/node-polyfills",
+              "./src/js/libs/node-imap/lib/imap.js",
+              "./src/js/libs/node-imap/lib/imap.parsers.js",
+              "./src/js/libs/node-imap/lib/imap.utilities.js",
+              "./src/js/libs/node-imap/lib/xregexp.js",
+              "./src/js/libs/buffer-browserify/buffer_ieee754.js",
+              "./src/js/libs/forge.js",
+              "./src/js/message.js",
+              "./src/js/controller_connection.js",
+              "./src/js/controller_mail.js",
+              "./src/js/alerts.js",
+              "./src/js/app.js"
+            ]
+        }
+    }
+}

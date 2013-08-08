@@ -1,0 +1,6 @@
+[submodule "src/js/libs/node-imap"]
+	path = src/js/libs/node-imap
+	url = https://github.com/hiddentao/node-imap.git
+[submodule "src/js/libs/forge"]
+	path = src/js/libs/forge
+	url = https://github.com/hiddentao/forge.git
