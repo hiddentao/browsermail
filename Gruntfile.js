@@ -196,8 +196,7 @@ module.exports = function (grunt) {
       weber: {
         command: 'node_modules/.bin/weber build'
       }
-    }
-    /* not currently in use
+    },
     compress: {
       build: {
         options: {
@@ -213,7 +212,6 @@ module.exports = function (grunt) {
         ]
       }
     }
-    */
   });
 
   grunt.registerTask('build', [
@@ -225,6 +223,11 @@ module.exports = function (grunt) {
     'copy',
     'usemin',
     'shell:weber'
+  ]);
+
+  grunt.registerTask('release', [
+    'build',
+    'compress'
   ]);
 
 };

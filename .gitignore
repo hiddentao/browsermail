@@ -3,8 +3,9 @@ node_modules
 src/bower_components
 temp
 .tmp
-release
 build
+
+release/browsermail/
 
 # SASS
 .sass-cache
