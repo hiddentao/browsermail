@@ -27,7 +27,7 @@ as otherwise the Chrome developer tools console seems to crash.
 
 This is only possible in browsers which allow raw TCP socket access. For Chrome this means creating a [packaged app](http://developer.chrome.com/apps/about_apps.html) with the [socket permissions](http://developer.chrome.com/apps/socket.html).
 
-All I had to was grab an existing IMAP client (see below) for node and simulate Node's `Socket`, `TLS` and `Buffer` classes.
+I grabbed an existing IMAP client (see below) for node and simulated Node's `Socket`, `TLS` and `Buffer` classes.
 
 The following projects are used to make this possible:
 
@@ -37,7 +37,7 @@ The following projects are used to make this possible:
 
 ## Future stuff
 
-I don't have plans to keep working on this for now, but technically speaking the following should all be possible:
+Technically speaking the following should all be possible:
 
 * Replies
 * Attachments
