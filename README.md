@@ -7,7 +7,7 @@ This only fetches the latest messages for your inbox and shows them. Email body 
 
 ## Running it
 
-1. Download and unzip [browsermail.zip](https://raw.github.com/hiddentao/browsermail/master/release/browsermail.zip).
+1. Download and unzip [release/browsermail.zip](https://raw.github.com/hiddentao/browsermail/master/release/browsermail.zip).
 2. Load the output folder into [chrome://extensions](chrome://extensions) as an unpacked extension.
 
 _This was built and tested successfully with Chromium 29 against a gmail.com account_
