@@ -230,4 +230,7 @@ module.exports = function (grunt) {
     'compress'
   ]);
 
+  grunt.registerTask('default', [
+    'build'
+  ]);
 };

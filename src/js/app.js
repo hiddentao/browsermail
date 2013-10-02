@@ -3,10 +3,6 @@
 var util = require('util');
 
 
-/* initialize foundation */
-$(document).foundation();
-
-
 /** Setup logging */
 window.app.log = console.log = (function() {
   var _console_log = console.log;

@@ -4,8 +4,8 @@
   "dependencies": {
     "jquery": "~2.0.3",
     "eventEmitter": "~4.1.1",
-    "foundation": "~4.3.1",
-    "momentjs": "~2.1.0"
+    "momentjs": "~2.1.0",
+    "sass-bootstrap-compass": "~3.0.16"
   },
   "devDependencies": {}
 }
